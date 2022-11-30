@@ -6,7 +6,7 @@ resources:
 - repo: self
 
 variables:
-  url_to_scan: 'https://uat.simtal.com/'
+  url_to_scan: 'https://ginandjuice.shop'
 
 stages:
 - stage: dast
