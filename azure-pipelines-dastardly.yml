@@ -6,7 +6,7 @@ resources:
 - repo: self
 
 variables:
-  url_to_scan: 'https://uatunderwriterportal.hoxtoninsuranceservices.com'
+  url_to_scan: 'https://nuventure.com'
 
 stages:
 - stage: dast
