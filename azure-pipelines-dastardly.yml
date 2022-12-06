@@ -6,7 +6,7 @@ resources:
 - repo: self
 
 variables:
-  url_to_scan: 'https://nuventure.com'
+  url_to_scan: 'https://google.com'
 
 stages:
 - stage: dast
