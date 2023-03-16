@@ -6,7 +6,7 @@ resources:
 - repo: self
 
 variables:
-  url_to_scan: 'https://mnp-staging-uat-us.chainthat.net'
+  url_to_scan: 'https://uatbrokerportal.hoxtoninsuranceservices.com'
 
 stages:
 - stage: dast
