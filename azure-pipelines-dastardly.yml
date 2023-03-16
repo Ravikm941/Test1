@@ -6,14 +6,14 @@ resources:
 - repo: self
 
 variables:
-  url_to_scan: 'https://mnp-staging-uat-us.chainthat.net/login'
+  url_to_scan: 'https://mnp-staging-uat-us.chainthat.net'
 
 stages:
 - stage: dast
   displayName: dast scanning
   jobs:
   - job: dast_dastardly
-    displayName: dast dastardly scanning
+    displayName: MNP
     pool:
       vmImage: ubuntu-latest
     steps:
