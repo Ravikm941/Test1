@@ -6,7 +6,7 @@ resources:
 - repo: self
 
 variables:
-  url_to_scan: 'https://google.com'
+  url_to_scan: 'https://mnp-staging-uat-us.chainthat.net/login'
 
 stages:
 - stage: dast
